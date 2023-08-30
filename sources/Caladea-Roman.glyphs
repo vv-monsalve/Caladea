@@ -17,7 +17,8 @@ DisplayStrings = (
 "/gcommaaccent",
 "/kcommaaccent",
 nnooHHOe,
-"/Ldot/Ldot/dcroat/dcroat/dcroat/dcroat/hbar/hbar/hbar/hbar/ldot/ldot/ldot/brevecomb/cedillacomb/cedillacomb/cedillacomb/cedillacomb"
+"/Ldot/Ldot/dcroat/dcroat/dcroat/dcroat/hbar/hbar/hbar/hbar/ldot/ldot/ldot/brevecomb/cedillacomb/cedillacomb/cedillacomb/cedillacomb",
+"noHOt\012/Eng U/Uogonek k/kgreenlandic myz/fi/fl"
 );
 copyright = "Copyright 2012 The Caladea Project Authors (https://github.com/huertatipografica/Caladea)";
 customParameters = (
@@ -158,15 +159,12 @@ position = "{462, 853}";
 horizontalStems = (
 48,
 50,
-0,
-0,
-0
+54
 );
 id = UUID0;
 verticalStems = (
 85,
 88,
-90,
 101
 );
 weightValue = 85;
@@ -234,18 +232,15 @@ position = "{733, 900}";
 }
 );
 horizontalStems = (
-71,
-49,
 56,
-61,
-66
+58,
+67
 );
 id = "0EBA3A65-8808-4583-9AA2-2A9BC4F414AB";
 verticalStems = (
 141,
 147,
-113,
-0
+166
 );
 weight = Bold;
 weightValue = 147;
@@ -6347,7 +6342,7 @@ unicode = 012A;
 {
 color = 11;
 glyphname = Iogonek;
-lastChange = "2019-11-16 02:31:37 +0000";
+lastChange = "2023-08-30 04:34:44 +0000";
 layers = (
 {
 background = {
@@ -6429,13 +6424,9 @@ nodes = (
 "235 620 OFFCURVE",
 "265 627 OFFCURVE",
 "297 631 CURVE",
-"299 643 OFFCURVE",
-"301 655 OFFCURVE",
-"302 667 CURVE",
+"302 667 LINE",
 "25 667 LINE",
-"24 655 OFFCURVE",
-"22 643 OFFCURVE",
-"20 631 CURVE",
+"20 631 LINE",
 "54 627 OFFCURVE",
 "89 619 OFFCURVE",
 "118 604 CURVE",
@@ -6533,8 +6524,11 @@ nodes = (
 "87 610 OFFCURVE",
 "101 596 CURVE",
 "101 71 LINE SMOOTH",
-"101 14 OFFCURVE",
-"-3 -45 OFFCURVE",
+"101 45 OFFCURVE",
+"79 18 OFFCURVE",
+"55 -10 CURVE SMOOTH",
+"27 -44 OFFCURVE",
+"-3 -80 OFFCURVE",
 "-3 -121 CURVE SMOOTH",
 "-3 -174 OFFCURVE",
 "42 -204 OFFCURVE",
@@ -8178,9 +8172,9 @@ width = 679;
 unicode = 00D1;
 },
 {
-color = 1;
+color = 4;
 glyphname = Eng;
-lastChange = "2019-11-16 03:22:43 +0000";
+lastChange = "2023-08-30 04:37:54 +0000";
 layers = (
 {
 background = {
@@ -8363,7 +8357,9 @@ nodes = (
 "188 515 LINE",
 "485 65 LINE",
 "506 33 LINE",
-"506 -42 LINE SMOOTH",
+"506 8 OFFCURVE",
+"506 -17 OFFCURVE",
+"506 -42 CURVE SMOOTH",
 "506 -78 OFFCURVE",
 "498 -107 OFFCURVE",
 "467 -107 CURVE SMOOTH",
@@ -8451,11 +8447,7 @@ nodes = (
 "656 628 CURVE",
 "662 667 LINE"
 );
-}
-);
-};
-layerId = "0EBA3A65-8808-4583-9AA2-2A9BC4F414AB";
-paths = (
+},
 {
 closed = 1;
 nodes = (
@@ -8464,6 +8456,69 @@ nodes = (
 "569 -161 CURVE SMOOTH",
 "590 -126 OFFCURVE",
 "595 -80 OFFCURVE",
+"595 -33 CURVE SMOOTH",
+"595 596 LINE",
+"611 610 OFFCURVE",
+"631 620 OFFCURVE",
+"656 628 CURVE",
+"662 667 LINE",
+"444 667 LINE",
+"439 626 LINE",
+"471 620 OFFCURVE",
+"488 613 OFFCURVE",
+"508 596 CURVE",
+"508 183 LINE",
+"232 667 LINE",
+"35 667 LINE",
+"31 628 LINE",
+"57 619 OFFCURVE",
+"77 609 OFFCURVE",
+"92 596 CURVE",
+"92 71 LINE",
+"74 53 OFFCURVE",
+"61 46 OFFCURVE",
+"35 41 CURVE",
+"31 0 LINE",
+"247 0 LINE",
+"254 39 LINE",
+"220 46 OFFCURVE",
+"194 57 OFFCURVE",
+"179 71 CURVE",
+"179 460 LINE",
+"443 0 LINE",
+"482 0 LINE",
+"486 -37 OFFCURVE",
+"491 -62 OFFCURVE",
+"491 -108 CURVE SMOOTH",
+"491 -151 OFFCURVE",
+"467 -169 OFFCURVE",
+"445 -169 CURVE SMOOTH",
+"421 -169 OFFCURVE",
+"411 -152 OFFCURVE",
+"411 -133 CURVE SMOOTH",
+"411 -120 OFFCURVE",
+"416 -106 OFFCURVE",
+"425 -97 CURVE",
+"414 -80 OFFCURVE",
+"396 -72 OFFCURVE",
+"379 -72 CURVE SMOOTH",
+"342 -72 OFFCURVE",
+"316 -97 OFFCURVE",
+"316 -134 CURVE SMOOTH",
+"316 -190 OFFCURVE",
+"377 -218 OFFCURVE",
+"440 -218 CURVE SMOOTH"
+);
+}
+);
+};
+layerId = "0EBA3A65-8808-4583-9AA2-2A9BC4F414AB";
+paths = (
+{
+closed = 1;
+nodes = (
+"557 -218 OFFCURVE",
+"595 -152 OFFCURVE",
 "595 -33 CURVE SMOOTH",
 "595 596 LINE",
 "611 610 OFFCURVE",
@@ -11854,7 +11909,7 @@ unicode = 021A;
 {
 color = 4;
 glyphname = U;
-lastChange = "2019-11-16 01:33:51 +0000";
+lastChange = "2023-08-30 04:38:40 +0000";
 layers = (
 {
 anchors = (
@@ -11970,7 +12025,7 @@ width = 648;
 anchors = (
 {
 name = ogonek;
-position = "{413, 0}";
+position = "{419, 0}";
 },
 {
 name = top;
@@ -12319,19 +12374,90 @@ width = 676;
 unicode = 016A;
 },
 {
-color = 11;
+color = 4;
 glyphname = Uogonek;
-lastChange = "2019-11-16 02:31:37 +0000";
+lastChange = "2023-08-30 04:39:14 +0000";
 layers = (
 {
 background = {
-components = (
-{
-name = U;
-},
+anchors = (
 {
 name = ogonek;
-transform = "{1, 0, 0, 1, 176, 0}";
+position = "{403, 0}";
+},
+{
+name = top;
+position = "{325, 667}";
+}
+);
+paths = (
+{
+closed = 1;
+nodes = (
+"477 -7 OFFCURVE",
+"558 73 OFFCURVE",
+"558 216 CURVE SMOOTH",
+"558 604 LINE",
+"581 616 OFFCURVE",
+"607 624 OFFCURVE",
+"650 631 CURVE",
+"655 667 LINE",
+"402 667 LINE",
+"397 631 LINE",
+"440 626 OFFCURVE",
+"472 616 OFFCURVE",
+"494 604 CURVE",
+"494 216 LINE SMOOTH",
+"494 105 OFFCURVE",
+"435 45 OFFCURVE",
+"332 45 CURVE SMOOTH",
+"228 45 OFFCURVE",
+"180 91 OFFCURVE",
+"180 210 CURVE SMOOTH",
+"180 604 LINE",
+"203 616 OFFCURVE",
+"229 624 OFFCURVE",
+"270 631 CURVE",
+"276 667 LINE",
+"-4 667 LINE",
+"-8 631 LINE",
+"35 626 OFFCURVE",
+"66 616 OFFCURVE",
+"89 604 CURVE",
+"89 210 LINE SMOOTH",
+"89 60 OFFCURVE",
+"160 -7 OFFCURVE",
+"332 -7 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"320 -11 OFFCURVE",
+"304 -27 OFFCURVE",
+"288 -46 CURVE SMOOTH",
+"269 -70 OFFCURVE",
+"246 -95 OFFCURVE",
+"246 -129 CURVE SMOOTH",
+"246 -175 OFFCURVE",
+"285 -204 OFFCURVE",
+"333 -204 CURVE SMOOTH",
+"364 -204 OFFCURVE",
+"398 -191 OFFCURVE",
+"422 -165 CURVE",
+"405 -144 LINE",
+"385 -155 OFFCURVE",
+"369 -159 OFFCURVE",
+"356 -159 CURVE SMOOTH",
+"331 -159 OFFCURVE",
+"314 -144 OFFCURVE",
+"314 -111 CURVE SMOOTH",
+"314 -72 OFFCURVE",
+"343 -19 OFFCURVE",
+"403 0 CURVE",
+"378 25 LINE",
+"331 10 LINE"
+);
 }
 );
 };
@@ -12340,7 +12466,7 @@ components = (
 name = U;
 },
 {
-name = ogonek;
+name = ogonekcomb.case;
 transform = "{1, 0, 0, 1, 246, 0}";
 }
 );
@@ -12407,11 +12533,7 @@ nodes = (
 "7 667 LINE",
 "2 626 LINE"
 );
-}
-);
-};
-layerId = "0EBA3A65-8808-4583-9AA2-2A9BC4F414AB";
-paths = (
+},
 {
 closed = 1;
 nodes = (
@@ -12471,6 +12593,17 @@ nodes = (
 );
 }
 );
+};
+components = (
+{
+name = U;
+},
+{
+name = ogonekcomb.case;
+transform = "{1, 0, 0, 1, 242, 0}";
+}
+);
+layerId = "0EBA3A65-8808-4583-9AA2-2A9BC4F414AB";
 width = 676;
 }
 );
@@ -22624,7 +22757,7 @@ unicode = 0135;
 {
 color = 1;
 glyphname = k;
-lastChange = "2019-11-16 04:11:53 +0000";
+lastChange = "2023-08-30 04:42:17 +0000";
 layers = (
 {
 anchors = (
@@ -22698,7 +22831,10 @@ nodes = (
 "179 62 CURVE",
 "179 199 LINE",
 "225 244 LINE",
-"378 0 LINE",
+"347 49 LINE",
+"357 33 OFFCURVE",
+"368 16 OFFCURVE",
+"378 0 CURVE",
 "521 0 LINE",
 "525 35 LINE",
 "489 40 OFFCURVE",
@@ -22710,9 +22846,13 @@ nodes = (
 "444 435 OFFCURVE",
 "485 437 CURVE",
 "482 467 LINE",
+"378 467 LINE",
 "349 467 LINE",
-"346 454 OFFCURVE",
-"339 435 OFFCURVE",
+"347 460 OFFCURVE",
+"344 450 OFFCURVE",
+"338 439 CURVE SMOOTH",
+"333 431 OFFCURVE",
+"326 421 OFFCURVE",
 "316 411 CURVE SMOOTH",
 "179 273 LINE",
 "179 687 LINE",
@@ -22823,8 +22963,8 @@ nodes = (
 "547 59 OFFCURVE",
 "529 76 CURVE",
 "378 312 LINE",
-"473 406 LINE",
-"501 438 OFFCURVE",
+"473 406 LINE SMOOTH",
+"503 436 OFFCURVE",
 "541 444 OFFCURVE",
 "561 445 CURVE",
 "569 484 LINE",
@@ -22834,8 +22974,8 @@ nodes = (
 "379 439 OFFCURVE",
 "379 416 CURVE SMOOTH",
 "379 410 OFFCURVE",
-"376 404 OFFCURVE",
-"371 398 CURVE",
+"377 403 OFFCURVE",
+"367 393 CURVE SMOOTH",
 "231 263 LINE",
 "231 687 LINE",
 "213 697 LINE",
@@ -69502,6 +69642,32 @@ uni00AD = -10;
 manufacturer = "Carolina Giovanolli, Andres Torresi";
 manufacturerURL = "https://www.huertatipografica.com/es";
 unitsPerEm = 1000;
+userData = {
+GSDimensionPlugin.Dimensions = {
+"0EBA3A65-8808-4583-9AA2-2A9BC4F414AB" = {
+HH = "63";
+HV = "147";
+OH = "58";
+OV = "166";
+nV = "141";
+nd = "67";
+oH = "56";
+oV = "147";
+tH = "65";
+};
+UUID0 = {
+HH = "51";
+HV = "88";
+OH = "50";
+OV = "101";
+nV = "85";
+nd = "48";
+oH = "46";
+oV = "88";
+tH = "54";
+};
+};
+};
 versionMajor = 1;
 versionMinor = 1;
 }
