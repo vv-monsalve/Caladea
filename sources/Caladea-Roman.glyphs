@@ -21,7 +21,8 @@ nnooHHOe,
 "noHOt\012/Eng U/Uogonek k/kgreenlandic myz/fi/fl",
 "7/seveneighths «»/guilsinglleft/guilsinglright/florin ®/trademark ¢/peseta/integral",
 "/.notdef",
-"¢"
+"¢",
+"/dcaron á/space/dcaron u/space/ldot l/space gj/space/lcaron k/space w/lslash w/space y/lslash y/space ó/lslash r/space f/hbar/space ílïlîl"
 );
 classes = (
 {
@@ -83,7 +84,7 @@ value = "Copyright 2012 by Huerta Tipografica. All rights reserved.";
 },
 {
 name = trademark;
-value = "Caladea is a trademark of Carolina Giovagnoli & Andres Torresi.";
+value = "Caladea is a trademark of Carolina Giovanolli and Andres Torresi";
 },
 {
 name = Axes;
@@ -95,7 +96,7 @@ Tag = wght;
 );
 }
 );
-date = "2019-09-24 16:15:44 +0000";
+date = "2023-08-31 00:22:42 +0000";
 designer = "Carolina Giovanolli, Andres Torresi";
 designerURL = "https://www.huertatipografica.com/es";
 familyName = Caladea;
@@ -20535,10 +20536,14 @@ unicode = 0121;
 {
 color = 4;
 glyphname = h;
-lastChange = "2019-11-15 04:49:55 +0000";
+lastChange = "2023-08-31 00:32:43 +0000";
 layers = (
 {
 anchors = (
+{
+name = center;
+position = "{160, 555}";
+},
 {
 name = top;
 position = "{298, 667}";
@@ -20657,6 +20662,10 @@ width = 552;
 },
 {
 anchors = (
+{
+name = center;
+position = "{185, 555}";
+},
 {
 name = top;
 position = "{357, 667}";
@@ -20779,7 +20788,7 @@ unicode = 0068;
 {
 color = 4;
 glyphname = hbar;
-lastChange = "2023-08-29 23:49:09 +0000";
+lastChange = "2023-08-31 00:32:43 +0000";
 layers = (
 {
 anchors = (
@@ -20811,15 +20820,15 @@ name = h;
 };
 components = (
 {
-name = macron;
+name = h;
 },
 {
-name = h;
-transform = "{1, 0, 0, 1, 278, 0}";
+name = strokeshortcomb;
+transform = "{1, 0, 0, 1, -1, 0}";
 }
 );
 layerId = UUID0;
-width = 830;
+width = 552;
 },
 {
 anchors = (
@@ -20841,15 +20850,15 @@ name = h;
 };
 components = (
 {
-name = macron;
+name = h;
 },
 {
-name = h;
-transform = "{1, 0, 0, 1, 311, 0}";
+name = strokeshortcomb;
+transform = "{1, 0, 0, 1, 4, -43}";
 }
 );
 layerId = "0EBA3A65-8808-4583-9AA2-2A9BC4F414AB";
-width = 908;
+width = 597;
 }
 );
 unicode = 0127;
@@ -60479,6 +60488,55 @@ width = 199;
 }
 );
 unicode = 0328;
+},
+{
+glyphname = strokeshortcomb;
+lastChange = "2023-08-31 00:32:22 +0000";
+layers = (
+{
+anchors = (
+{
+name = _center;
+position = "{161, 555}";
+}
+);
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"295 533 LINE",
+"295 577 LINE",
+"27 577 LINE",
+"27 533 LINE"
+);
+}
+);
+width = 320;
+},
+{
+anchors = (
+{
+name = _center;
+position = "{181, 598}";
+}
+);
+layerId = "0EBA3A65-8808-4583-9AA2-2A9BC4F414AB";
+paths = (
+{
+closed = 1;
+nodes = (
+"336 564 LINE",
+"336 622 LINE",
+"25 622 LINE",
+"25 564 LINE"
+);
+}
+);
+width = 361;
+}
+);
+unicode = 0335;
 },
 {
 color = 7;
