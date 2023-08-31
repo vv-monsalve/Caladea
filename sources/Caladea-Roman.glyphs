@@ -9,7 +9,8 @@ DisplayStrings = (
 "/.notdef",
 "¢",
 "nn/Placeholder no/Placeholder oo\012ddd/commaaccent/dcaron/dcroat d/dcaron oá/space/dcaron u/space l·/Ldot Ll/ldot l/space gj/space L/commaaccentcomb/caron.alt L/Lcaron/space l/lcaron ok/space w/lslash w/space y/lslash y/space ó/lslash r/space f/hbar/space ílïlîl",
-"/caron.alt d/dcaron o"
+"/caron.alt d/dcaron o",
+"H.Y-Y.T,F.P,V:Y/quotedblbase V-T-A*A/quoteright A/quotedblleft A/quoteright A-AL/endash L/emdash L-/space"
 );
 classes = (
 {
@@ -11783,7 +11784,7 @@ unicode = 0218;
 {
 color = 4;
 glyphname = T;
-lastChange = "2019-11-16 03:54:57 +0000";
+lastChange = "2023-08-31 02:03:24 +0000";
 layers = (
 {
 anchors = (
@@ -40664,15 +40665,9 @@ unicode = 00BF;
 {
 color = 4;
 glyphname = periodcentered;
-lastChange = "2023-08-31 01:45:45 +0000";
+lastChange = "2023-08-31 01:54:46 +0000";
 layers = (
 {
-anchors = (
-{
-name = _center;
-position = "{135, 289}";
-}
-);
 background = {
 paths = (
 {
@@ -41892,7 +41887,7 @@ unicode = 203E;
 {
 color = 4;
 glyphname = hyphen;
-lastChange = "2019-11-14 06:00:41 +0000";
+lastChange = "2023-08-31 02:02:44 +0000";
 layers = (
 {
 background = {
@@ -41920,7 +41915,7 @@ nodes = (
 );
 }
 );
-width = 332;
+width = 334;
 },
 {
 background = {
@@ -66909,6 +66904,7 @@ guillemotleft = -88;
 guillemotright = -20;
 guilsinglleft = -88;
 guilsinglright = -20;
+hyphen = -94;
 icircumflex = 20;
 idieresis = 20;
 idotless = -34;
@@ -67047,6 +67043,7 @@ guillemotleft = -54;
 guillemotright = -43;
 guilsinglleft = -54;
 guilsinglright = -43;
+hyphen = -63;
 icircumflex = 39;
 idieresis = 39;
 idotless = -34;
@@ -67231,6 +67228,7 @@ guillemotleft = -112;
 guillemotright = -78;
 guilsinglleft = -112;
 guilsinglright = -78;
+hyphen = -110;
 icircumflex = 29;
 idieresis = 29;
 idotless = -59;
@@ -67644,6 +67642,10 @@ quotesingle = -29;
 v = -20;
 w = -13;
 y = -20;
+};
+hyphen = {
+T = -94;
+Y = -110;
 };
 i = {
 v = -20;
