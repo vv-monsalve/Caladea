@@ -15,7 +15,8 @@ s,
 "/Aogonek E/ogonekcomb.case/Eogonek/Iogonek/Uogonek a/ogonekcomb/aogonek e/eogonek/idotless/iogonek u/uogonek",
 "/Aogonek/Eogonek/Iogonek/Uogonek/aogonek/eogonek/iogonek/uogonek",
 b,
-d
+d,
+noHOt
 );
 copyright = "Copyright 2012 The Familyname Project Authors (https://github.com/huertatipografica/Caladea)";
 customParameters = (
@@ -159,20 +160,18 @@ position = "{339, 862}";
 }
 );
 horizontalStems = (
-42,
 48,
-55,
-0
+50,
+54
 );
 id = "CF479DE4-94A2-4865-8D1E-65EA355866D4";
 italicAngle = 9;
 verticalStems = (
 85,
-89,
-99,
-0
+90,
+100
 );
-weightValue = 85;
+weightValue = 400;
 xHeight = 467;
 },
 {
@@ -247,22 +246,20 @@ position = "{544, 896}";
 }
 );
 horizontalStems = (
-49,
 58,
-61,
+63,
 67
 );
 id = "0FAD76F5-9F58-4721-BF81-08BC6166EF10";
 italicAngle = 9;
 name = BoldItalic;
 verticalStems = (
-141,
-147,
-113,
-160
+140,
+145,
+165
 );
 weight = Bold;
-weightValue = 141;
+weightValue = 700;
 xHeight = 484;
 }
 );
@@ -22529,17 +22526,13 @@ unicode = 006D;
 },
 {
 glyphname = n;
-lastChange = "2023-09-05 21:46:04 +0000";
+lastChange = "2023-09-05 21:58:59 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
 position = "{243, 0}";
-},
-{
-name = cedilla;
-position = "{224, 0}";
 },
 {
 name = top;
@@ -22638,11 +22631,8 @@ nodes = (
 "416 62 OFFCURVE",
 "413 68 OFFCURVE",
 "413 84 CURVE SMOOTH",
-"413 100 OFFCURVE",
-"439 236 OFFCURVE",
-"454 328 CURVE SMOOTH",
-"457 348 OFFCURVE",
-"458 364 OFFCURVE",
+"413 129 OFFCURVE",
+"458 324 OFFCURVE",
 "458 369 CURVE SMOOTH",
 "458 437 OFFCURVE",
 "417 476 OFFCURVE",
@@ -22652,7 +22642,7 @@ nodes = (
 "187 359 CURVE",
 "197 454 LINE",
 "187 473 LINE",
-"187 473 OFFCURVE",
+"184 474 OFFCURVE",
 "174 476 OFFCURVE",
 "162 476 CURVE SMOOTH",
 "104 476 OFFCURVE",
@@ -22666,7 +22656,7 @@ nodes = (
 "106 409 OFFCURVE",
 "106 386 CURVE SMOOTH",
 "106 378 OFFCURVE",
-"46 0 OFFCURVE",
+"55 52 OFFCURVE",
 "46 0 CURVE",
 "131 0 LINE",
 "157 163 LINE SMOOTH",
@@ -22789,12 +22779,8 @@ nodes = (
 "494 68 OFFCURVE",
 "489 80 OFFCURVE",
 "489 93 CURVE SMOOTH",
-"489 103 OFFCURVE",
-"492 114 OFFCURVE",
-"493 122 CURVE SMOOTH",
-"525 329 LINE SMOOTH",
-"527 342 OFFCURVE",
-"528 359 OFFCURVE",
+"489 135 OFFCURVE",
+"528 327 OFFCURVE",
 "528 369 CURVE SMOOTH",
 "528 446 OFFCURVE",
 "481 492 OFFCURVE",
@@ -22804,8 +22790,11 @@ nodes = (
 "240 392 CURVE",
 "244 483 LINE",
 "228 492 LINE",
-"173 491 OFFCURVE",
-"83 477 OFFCURVE",
+"217 492 OFFCURVE",
+"206 491 OFFCURVE",
+"193 490 CURVE SMOOTH",
+"140 485 OFFCURVE",
+"73 473 OFFCURVE",
 "33 456 CURVE",
 "36 417 LINE",
 "44 418 OFFCURVE",
@@ -22814,24 +22803,19 @@ nodes = (
 "84 419 OFFCURVE",
 "97 405 OFFCURVE",
 "97 376 CURVE SMOOTH",
-"97 369 OFFCURVE",
-"96 362 OFFCURVE",
-"95 354 CURVE SMOOTH",
-"38 0 LINE",
+"97 346 OFFCURVE",
+"46 48 OFFCURVE",
+"38 0 CURVE",
 "179 0 LINE",
 "211 196 LINE SMOOTH",
-"229 310 OFFCURVE",
+"230 310 OFFCURVE",
 "295 425 OFFCURVE",
 "344 425 CURVE SMOOTH",
 "371 425 OFFCURVE",
 "386 404 OFFCURVE",
 "386 365 CURVE SMOOTH",
-"386 354 OFFCURVE",
-"385 342 OFFCURVE",
-"383 329 CURVE SMOOTH",
-"352 136 LINE SMOOTH",
-"349 116 OFFCURVE",
-"347 97 OFFCURVE",
+"386 327 OFFCURVE",
+"347 141 OFFCURVE",
 "347 80 CURVE SMOOTH",
 "347 27 OFFCURVE",
 "367 -6 OFFCURVE",
@@ -23363,13 +23347,13 @@ unicode = 014B;
 },
 {
 glyphname = o;
-lastChange = "2023-09-05 21:46:04 +0000";
+lastChange = "2023-09-05 21:59:32 +0000";
 layers = (
 {
 anchors = (
 {
 name = ogonek;
-position = "{273, 0}";
+position = "{313, 0}";
 },
 {
 name = top;
@@ -23467,6 +23451,10 @@ width = 507;
 },
 {
 anchors = (
+{
+name = ogonek;
+position = "{313, 0}";
+},
 {
 name = top;
 position = "{325, 484}";
@@ -27165,17 +27153,13 @@ unicode = 017F;
 },
 {
 glyphname = t;
-lastChange = "2023-09-05 21:46:04 +0000";
+lastChange = "2023-09-05 22:03:30 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
-position = "{163, 0}";
-},
-{
-name = cedilla;
-position = "{143, 0}";
+position = "{153, 0}";
 },
 {
 name = top;
@@ -27251,7 +27235,7 @@ nodes = (
 "143 70 OFFCURVE",
 "143 90 CURVE SMOOTH",
 "143 125 OFFCURVE",
-"193 413 OFFCURVE",
+"191 413 OFFCURVE",
 "192 413 CURVE SMOOTH",
 "350 413 LINE",
 "361 467 LINE",
@@ -27279,6 +27263,10 @@ anchors = (
 {
 name = bottom;
 position = "{162, 0}";
+},
+{
+name = top;
+position = "{196, 600}";
 }
 );
 background = {
@@ -27345,9 +27333,8 @@ nodes = (
 "207 82 OFFCURVE",
 "207 107 CURVE SMOOTH",
 "207 123 OFFCURVE",
-"219 192 OFFCURVE",
-"225 229 CURVE SMOOTH",
-"254 413 LINE",
+"245 364 OFFCURVE",
+"254 413 CURVE",
 "383 413 LINE",
 "394 478 LINE",
 "266 478 LINE",
@@ -27358,10 +27345,9 @@ nodes = (
 "48 457 CURVE",
 "41 413 LINE",
 "112 413 LINE",
-"67 125 LINE SMOOTH",
-"65 115 OFFCURVE",
-"63 97 OFFCURVE",
-"63 88 CURVE SMOOTH",
+"98 315 OFFCURVE",
+"63 124 OFFCURVE",
+"63 82 CURVE SMOOTH",
 "63 22 OFFCURVE",
 "109 -4 OFFCURVE",
 "168 -4 CURVE SMOOTH"
@@ -61596,7 +61582,7 @@ width = 297;
 },
 {
 glyphname = tcommaccent;
-lastChange = "2023-08-31 03:36:56 +0000";
+lastChange = "2023-09-05 22:03:32 +0000";
 layers = (
 {
 background = {
@@ -61616,7 +61602,7 @@ name = t;
 },
 {
 name = commaaccent;
-transform = "{1, 0, 0, 1, 36, 0}";
+transform = "{1, 0, 0, 1, 26, 0}";
 }
 );
 layerId = "CF479DE4-94A2-4865-8D1E-65EA355866D4";
@@ -61651,7 +61637,7 @@ width = 364;
 );
 instances = (
 {
-interpolationWeight = 85;
+interpolationWeight = 400;
 instanceInterpolations = {
 "CF479DE4-94A2-4865-8D1E-65EA355866D4" = 1;
 };
@@ -61660,7 +61646,7 @@ linkStyle = Regular;
 name = Italic;
 },
 {
-interpolationWeight = 141;
+interpolationWeight = 700;
 instanceInterpolations = {
 "0FAD76F5-9F58-4721-BF81-08BC6166EF10" = 1;
 };
@@ -69163,6 +69149,32 @@ z = -5;
 manufacturer = "Carolina Giovanolli, Andres Torresi";
 manufacturerURL = "https://www.huertatipografica.com/es";
 unitsPerEm = 1000;
+userData = {
+GSDimensionPlugin.Dimensions = {
+"0FAD76F5-9F58-4721-BF81-08BC6166EF10" = {
+HH = "63";
+HV = "145";
+OH = "58";
+OV = "165";
+nV = "140";
+nd = "67";
+oH = "56";
+oV = "145";
+tH = "65";
+};
+"CF479DE4-94A2-4865-8D1E-65EA355866D4" = {
+HH = "54";
+HV = "87";
+OH = "48";
+OV = "99";
+nV = "84";
+nd = "55";
+oH = "48";
+oV = "93";
+tH = "54";
+};
+};
+};
 versionMajor = 1;
 versionMinor = 1;
 }
