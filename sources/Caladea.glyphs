@@ -46,8 +46,9 @@ nbspace
 );
 },
 {
+disabled = 1;
 name = "Enforce Compatibility Check";
-value = 1;
+value = 0;
 },
 {
 name = "Use Typo Metrics";
@@ -79,7 +80,7 @@ Tag = wght;
 );
 }
 );
-date = "2023-08-31 00:22:42 +0000";
+date = "2023-09-06 21:17:30 +0000";
 designer = "Carolina Giovanolli, Andres Torresi";
 designerURL = "https://www.huertatipografica.com/es";
 familyName = Caladea;
@@ -137,8 +138,7 @@ fontMaster = (
 alignmentZones = (
 "{667, 11}",
 "{467, 10}",
-"{0, -10}",
-"{-211, -8}"
+"{0, -10}"
 );
 ascender = 778;
 capHeight = 667;
@@ -244,9 +244,8 @@ xHeight = 467;
 {
 alignmentZones = (
 "{667, 11}",
-"{484, 8}",
-"{0, -10}",
-"{-211, -8}"
+"{484, 10}",
+"{0, -10}"
 );
 ascender = 778;
 capHeight = 667;
@@ -8536,7 +8535,7 @@ unicode = 00D1;
 {
 color = 4;
 glyphname = Eng;
-lastChange = "2023-08-30 04:37:54 +0000";
+lastChange = "2023-08-31 03:50:32 +0000";
 layers = (
 {
 background = {
@@ -11305,7 +11304,7 @@ unicode = 0158;
 {
 color = 5;
 glyphname = Rcommaaccent;
-lastChange = "2019-11-16 04:09:05 +0000";
+lastChange = "2023-09-06 21:25:08 +0000";
 layers = (
 {
 components = (
@@ -12500,7 +12499,7 @@ unicode = 0055;
 {
 color = 5;
 glyphname = Uacute;
-lastChange = "2019-11-16 03:05:24 +0000";
+lastChange = "2023-09-06 21:12:27 +0000";
 layers = (
 {
 components = (
@@ -41198,7 +41197,7 @@ unicode = 002A;
 {
 color = 4;
 glyphname = exclamdbl;
-lastChange = "2019-11-19 04:12:42 +0000";
+lastChange = "2019-09-05 21:46:04 +0000";
 layers = (
 {
 background = {
@@ -43105,7 +43104,7 @@ unicode = 005B;
 {
 color = 4;
 glyphname = bracketright;
-lastChange = "2019-11-19 01:24:32 +0000";
+lastChange = "2023-09-05 21:46:04 +0000";
 layers = (
 {
 background = {
@@ -68298,6 +68297,11 @@ uni00AD = -10;
 };
 };
 "0EBA3A65-8808-4583-9AA2-2A9BC4F414AB" = {
+"@MMK_L_dcaron" = {
+"@MMK_R_o" = -110;
+a = -97;
+o = -110;
+};
 A = {
 C = -21;
 Ccedilla = -21;
@@ -70994,11 +70998,6 @@ odieresis = -5;
 ograve = -5;
 otilde = -5;
 uni00AD = -10;
-};
-"@MMK_L_dcaron" = {
-"@MMK_R_o" = -110;
-a = -97;
-o = -110;
 };
 };
 };
