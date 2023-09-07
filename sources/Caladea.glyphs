@@ -1,15 +1,5 @@
 {
 .appVersion = "3151";
-DisplayStrings = (
-"¢",
-"nn/Placeholder no/Placeholder oo\012ddd/commaaccent/caron.alt/dcaron d/dcaron do/dcroat dc/dcaron coá/space/dcaron uD/strokeshortcomb.case Ð/space l·/Ldot Ll/ldot l/space gj/space L/commaaccentcomb/caron.alt L/Lcaron/space l/lcaron ok/space w/lslash w/space y/lslash y/space ó/lslash r/space f/hbar/space ílïlîl\012/dcaron á/space/dcaron u/space/ldot l/space gj/space/lcaron k/space w/lslash w/space y/lslash y/space ó/lslash r/space f/hbar/space ílïlîl",
-"/caron.alt d/space/dcaron ao",
-"H.Y-Y.T,F.P,V:Y/quotedblbase V-T-A*A/quoteright A/quotedblleft A/quoteright A-AL/endash L/emdash L-/space",
-"/strokeshortcomb.case/strokeshortcomb d/dcroat/hbar",
-"¨/dotaccent `´/acutecomb.case/hungarumlaut/hungarumlautcomb/circumflex/circumflexcomb/breve/brevecomb/ring/ringcomb/tilde/tildecomb ¯¸CÇ/cedillacomb ç/scedilla/ogonek/ogonekcomb/caron.alt",
-"¸",
-"/ogonekcomb.case/Aogonek/Eogonek/Iogonek U/Uogonek a/aogonek/eogonek/iogonek u/uogonek"
-);
 classes = (
 {
 automatic = 1;
@@ -49,11 +39,6 @@ nbspace
 );
 },
 {
-disabled = 1;
-name = "Enforce Compatibility Check";
-value = 0;
-},
-{
 name = "Use Typo Metrics";
 value = 1;
 },
@@ -64,10 +49,6 @@ value = "This Font Software is licensed under the SIL Open Font License, Version
 {
 name = licenseURL;
 value = "https://scripts.sil.org/OFL";
-},
-{
-name = description;
-value = "Copyright 2012 by Huerta Tipografica. All rights reserved.";
 },
 {
 name = trademark;
@@ -61593,21 +61574,6 @@ layerId = "0EBA3A65-8808-4583-9AA2-2A9BC4F414AB";
 width = 646;
 }
 );
-},
-{
-color = 5;
-glyphname = Ohungarulaut;
-lastChange = "2023-09-07 00:34:13 +0000";
-layers = (
-{
-layerId = UUID0;
-width = 600;
-},
-{
-layerId = "0EBA3A65-8808-4583-9AA2-2A9BC4F414AB";
-width = 600;
-}
-);
 }
 );
 instances = (
@@ -66793,5 +66759,5 @@ tH = "54";
 };
 };
 versionMajor = 1;
-versionMinor = 7;
+versionMinor = 100;
 }
