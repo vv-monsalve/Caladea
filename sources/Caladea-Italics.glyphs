@@ -1,16 +1,5 @@
 {
 .appVersion = "3151";
-DisplayStrings = (
-"/strokeshortcomb D/strokeshortcomb.case Ð",
-a,
-"Zero/space Handles:\012/Iogonek TTVWa/aogonek bcdghi/idotless/ij/iogonek j/jdotless kk/kgreenlandic/kgreenlandic lmn/eng øpþqrtuu/uogonek/uogonek vwxxyz/fi/nmod ª57/oneeighth/threeeighths/fiveeighths/seveneighths ,!¡/exclamdouble (()){{}}\"'@/trademark/trademark/careof/minute/second/dagger/dagger/daggerdbl/daggerdbl/lira £/approxequal/approxequal/partialdiff µ\012\012Angled/space Handles:\012AA/Aogonek/Aogonek ÆÆBBCDEEFFGGHI/IJ/Iogonek/Iogonek JKKLMN/Eng/Eng/OE/OE PÞÞQRSSTTUVVWWXXYYZZaa/aogonek/aogonek ææbbcde/eogonek ffgghii/idotless/idotless/ij/ij/iogonek/iogonek jj/jdotless/jdotless kk/kgreenlandic/kgreenlandic lmmnn/eng/eng øø/oe ppþþqrrssßß/longs uu/uogonek/uogonek vvwwxyyzz/fi/fi/fl/nmod/nmod 1133445567½½¼¼¾¾/oneeighth/oneeighth/threeeighths/threeeighths/fiveeighths/seveneighths/seveneighths ¹¹³³!!¡**/exclamdouble/exclamdouble {{}}/florin/florin @&¶¶§/trademark/trademark/careof/minute/dagger/dagger/literSign/literSign/daggerdbl/daggerdbl ¢¢$$/euro/euro/franc/franc/lira/peseta/peseta £¥¥/integralbt/integralbt/integraltp/integraltp/intersection/integral/integral/product/summation/summation/partialdiff/partialdiff µµ/breve ¸\012\012Almost/space Orthogonal/space Lines:\012ØØZgø/nmod 44¼¼¾¾/fiveeighths/florin ®/trademark/dagger ¢/euro/rightArrow/rightArrow/leftArrow/leftArrow/leftRightArrow/leftRightArrow \012\012Bad/space Outline/space Order:\012/eogonek ooþþº00¶©/careof/numero %/perthousand \012\012Bad/space Path/space Orientation:\012/aringacute/eogonek ooþþªªºº00/oneeighth/threeeighths/fiveeighths/fiveeighths/seveneighths/seveneighths ¶©©®®/careof/careof/literSign/literSign/numero/numero %%/perthousand/perthousand \012\012",
-"t/tcaron l/lcaron",
-"/caroncomb.alt/tcaron",
-"¨/dotaccent ``/gravecomb/gravecomb.case ´/acutecomb/acutecomb.case/circumflex/circumflexcomb.case/firsttonechinese/caron/caroncomb/caroncomb.case/breve/brevecomb/brevecomb.case/ring/tilde/macroncomb ¸Ç/Scedilla ç/cedillacomb/cedillacomb.case",
-"121/minute 1/second",
-"/dotaccentcomb.case/dotaccentcomb.case/gravecomb.case/gravecomb.case/brevecomb.case/ringcomb.case/ringcomb.case/tildecomb.case/tildecomb.case/macroncomb.case",
-"nll/lcommaacent L/Ldot/dotaccentcomb/dotaccentcomb.case/Cdotaccent/Edotaccent/Gdotaccent/Idotaccent/Zdotaccent µ"
-);
 classes = (
 {
 automatic = 1;
@@ -51,6 +40,7 @@ nbspace
 );
 },
 {
+disabled = 1;
 name = "Enforce Compatibility Check";
 value = 0;
 },
@@ -65,10 +55,6 @@ value = "This Font Software is licensed under the SIL Open Font License, Version
 {
 name = licenseURL;
 value = "https://scripts.sil.org/OFL";
-},
-{
-name = description;
-value = "Copyright 2012 by Huerta Tipografica. All rights reserved.";
 },
 {
 name = trademark;
@@ -11009,7 +10995,7 @@ unicode = 0164;
 },
 {
 glyphname = Tcommaaccent;
-lastChange = "2023-09-05 22:11:43 +0000";
+lastChange = "2023-09-07 00:30:13 +0000";
 layers = (
 {
 background = {
@@ -11060,7 +11046,7 @@ layerId = "0FAD76F5-9F58-4721-BF81-08BC6166EF10";
 width = 603;
 }
 );
-unicode = "021A,021B";
+unicode = "021A,0162";
 },
 {
 color = 4;
@@ -13541,6 +13527,212 @@ width = 544;
 }
 );
 unicode = 017B;
+},
+{
+glyphname = T_c_e_d_i_l_l_a_comma;
+layers = (
+{
+components = (
+{
+name = T;
+},
+{
+name = c;
+transform = "{1, 0, 0, 1, 506, 0}";
+},
+{
+name = e;
+transform = "{1, 0, 0, 1, 927, 0}";
+},
+{
+name = d;
+transform = "{1, 0, 0, 1, 1384, 0}";
+},
+{
+name = i;
+transform = "{1, 0, 0, 1, 1908, 0}";
+},
+{
+name = l;
+transform = "{1, 0, 0, 1, 2179, 0}";
+},
+{
+name = l;
+transform = "{1, 0, 0, 1, 2446, 0}";
+},
+{
+name = a;
+transform = "{1, 0, 0, 1, 2713, 0}";
+},
+{
+name = comma;
+}
+);
+layerId = "CF479DE4-94A2-4865-8D1E-65EA355866D4";
+width = 3239;
+},
+{
+components = (
+{
+name = T;
+},
+{
+name = c;
+transform = "{1, 0, 0, 1, 535, 0}";
+},
+{
+name = e;
+transform = "{1, 0, 0, 1, 982, 0}";
+},
+{
+name = d;
+transform = "{1, 0, 0, 1, 1481, 0}";
+},
+{
+name = i;
+transform = "{1, 0, 0, 1, 2051, 0}";
+},
+{
+name = l;
+transform = "{1, 0, 0, 1, 2353, 0}";
+},
+{
+name = l;
+transform = "{1, 0, 0, 1, 2650, 0}";
+},
+{
+name = a;
+transform = "{1, 0, 0, 1, 2947, 0}";
+},
+{
+name = comma;
+}
+);
+layerId = "0FAD76F5-9F58-4721-BF81-08BC6166EF10";
+width = 3517;
+}
+);
+leftMetricsKey = T;
+rightMetricsKey = a;
+},
+{
+glyphname = T_c_o_m_m_a_a_c_c_e_n_t_comma;
+layers = (
+{
+components = (
+{
+name = T;
+},
+{
+name = c;
+transform = "{1, 0, 0, 1, 506, 0}";
+},
+{
+name = o;
+transform = "{1, 0, 0, 1, 927, 0}";
+},
+{
+name = m;
+transform = "{1, 0, 0, 1, 1434, 0}";
+},
+{
+name = m;
+transform = "{1, 0, 0, 1, 2233, 0}";
+},
+{
+name = a;
+transform = "{1, 0, 0, 1, 3032, 0}";
+},
+{
+name = a;
+transform = "{1, 0, 0, 1, 3558, 0}";
+},
+{
+name = c;
+transform = "{1, 0, 0, 1, 4084, 0}";
+},
+{
+name = c;
+transform = "{1, 0, 0, 1, 4505, 0}";
+},
+{
+name = e;
+transform = "{1, 0, 0, 1, 4926, 0}";
+},
+{
+name = n;
+transform = "{1, 0, 0, 1, 5383, 0}";
+},
+{
+name = t;
+transform = "{1, 0, 0, 1, 5918, 0}";
+},
+{
+name = comma;
+}
+);
+layerId = "CF479DE4-94A2-4865-8D1E-65EA355866D4";
+width = 6263;
+},
+{
+components = (
+{
+name = T;
+},
+{
+name = c;
+transform = "{1, 0, 0, 1, 535, 0}";
+},
+{
+name = o;
+transform = "{1, 0, 0, 1, 982, 0}";
+},
+{
+name = m;
+transform = "{1, 0, 0, 1, 1522, 0}";
+},
+{
+name = m;
+transform = "{1, 0, 0, 1, 2388, 0}";
+},
+{
+name = a;
+transform = "{1, 0, 0, 1, 3254, 0}";
+},
+{
+name = a;
+transform = "{1, 0, 0, 1, 3824, 0}";
+},
+{
+name = c;
+transform = "{1, 0, 0, 1, 4394, 0}";
+},
+{
+name = c;
+transform = "{1, 0, 0, 1, 4841, 0}";
+},
+{
+name = e;
+transform = "{1, 0, 0, 1, 5288, 0}";
+},
+{
+name = n;
+transform = "{1, 0, 0, 1, 5787, 0}";
+},
+{
+name = t;
+transform = "{1, 0, 0, 1, 6372, 0}";
+},
+{
+name = comma;
+}
+);
+layerId = "0FAD76F5-9F58-4721-BF81-08BC6166EF10";
+width = 6736;
+}
+);
+leftMetricsKey = T;
+rightMetricsKey = t;
 },
 {
 glyphname = a;
@@ -28005,6 +28197,39 @@ rightKerningGroup = t;
 unicode = 0165;
 },
 {
+glyphname = tcommaaccent;
+lastChange = "2023-09-07 00:30:46 +0000";
+layers = (
+{
+components = (
+{
+name = t;
+},
+{
+name = commaaccentcomb;
+transform = "{1, 0, 0, 1, 132, 0}";
+}
+);
+layerId = "CF479DE4-94A2-4865-8D1E-65EA355866D4";
+width = 345;
+},
+{
+components = (
+{
+name = t;
+},
+{
+name = commaaccentcomb;
+transform = "{1, 0, 0, 1, 128, -2}";
+}
+);
+layerId = "0FAD76F5-9F58-4721-BF81-08BC6166EF10";
+width = 364;
+}
+);
+unicode = "021B,0163";
+},
+{
 glyphname = u;
 lastChange = "2023-09-06 21:30:55 +0000";
 layers = (
@@ -31979,6 +32204,125 @@ width = 617;
 }
 );
 unicode = FB02;
+},
+{
+glyphname = t_c_o_m_m_a_a_c_c_e_n_t_comma;
+layers = (
+{
+components = (
+{
+name = t;
+},
+{
+name = c;
+transform = "{1, 0, 0, 1, 338, 0}";
+},
+{
+name = o;
+transform = "{1, 0, 0, 1, 759, 0}";
+},
+{
+name = m;
+transform = "{1, 0, 0, 1, 1266, 0}";
+},
+{
+name = m;
+transform = "{1, 0, 0, 1, 2065, 0}";
+},
+{
+name = a;
+transform = "{1, 0, 0, 1, 2864, 0}";
+},
+{
+name = a;
+transform = "{1, 0, 0, 1, 3390, 0}";
+},
+{
+name = c;
+transform = "{1, 0, 0, 1, 3916, 0}";
+},
+{
+name = c;
+transform = "{1, 0, 0, 1, 4337, 0}";
+},
+{
+name = e;
+transform = "{1, 0, 0, 1, 4758, 0}";
+},
+{
+name = n;
+transform = "{1, 0, 0, 1, 5215, 0}";
+},
+{
+name = t;
+transform = "{1, 0, 0, 1, 5750, 0}";
+},
+{
+name = comma;
+}
+);
+layerId = "CF479DE4-94A2-4865-8D1E-65EA355866D4";
+width = 6095;
+},
+{
+components = (
+{
+name = t;
+},
+{
+name = c;
+transform = "{1, 0, 0, 1, 357, 0}";
+},
+{
+name = o;
+transform = "{1, 0, 0, 1, 804, 0}";
+},
+{
+name = m;
+transform = "{1, 0, 0, 1, 1344, 0}";
+},
+{
+name = m;
+transform = "{1, 0, 0, 1, 2210, 0}";
+},
+{
+name = a;
+transform = "{1, 0, 0, 1, 3076, 0}";
+},
+{
+name = a;
+transform = "{1, 0, 0, 1, 3646, 0}";
+},
+{
+name = c;
+transform = "{1, 0, 0, 1, 4216, 0}";
+},
+{
+name = c;
+transform = "{1, 0, 0, 1, 4663, 0}";
+},
+{
+name = e;
+transform = "{1, 0, 0, 1, 5110, 0}";
+},
+{
+name = n;
+transform = "{1, 0, 0, 1, 5609, 0}";
+},
+{
+name = t;
+transform = "{1, 0, 0, 1, 6194, 0}";
+},
+{
+name = comma;
+}
+);
+layerId = "0FAD76F5-9F58-4721-BF81-08BC6166EF10";
+width = 6558;
+}
+);
+leftMetricsKey = t;
+rightMetricsKey = t;
 },
 {
 glyphname = nmod;
@@ -70175,5 +70519,5 @@ tH = "54";
 };
 };
 versionMajor = 1;
-versionMinor = 7;
+versionMinor = 100;
 }
