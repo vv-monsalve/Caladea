@@ -40,11 +40,6 @@ nbspace
 );
 },
 {
-disabled = 1;
-name = "Enforce Compatibility Check";
-value = 0;
-},
-{
 name = "Use Typo Metrics";
 value = 1;
 },
@@ -70,7 +65,7 @@ Tag = wght;
 );
 }
 );
-date = "2019-09-24 16:15:44 +0000";
+date = "2023-09-07 03:25:27 +0000";
 designer = "Carolina Giovanolli, Andres Torresi";
 designerURL = "https://www.huertatipografica.com/es";
 familyName = Caladea;
