@@ -108,7 +108,7 @@ name = ccmp;
 },
 {
 automatic = 1;
-code = "script latn;\012language AZE;\012lookup locl_latn_0 {\012	sub i by idotaccent;\012} locl_latn_0;\012language CRT;\012lookup locl_latn_0;\012language KAZ;\012lookup locl_latn_0;\012language TAT;\012lookup locl_latn_0;\012language TRK;\012lookup locl_latn_0;\012\012script latn;\012language ROM;\012lookup locl_latn_1 {\012	sub Scedilla by Scommaaccent;\012	sub scedilla by scommaaccent;\012} locl_latn_1;\012language MOL;\012lookup locl_latn_1;\012\012script latn;\012language CAT;\012lookup locl_latn_2 {\012	sub  l' periodcentered' l by ldot;\012	sub  L' periodcentered' L by Ldot;\012} locl_latn_2;\012";
+code = "lookup locl_latn_0 {\012	script latn;\012	language AZE;\012	sub i by idotaccent;\012	language CRT;\012	sub i by idotaccent;\012	language KAZ;\012	sub i by idotaccent;\012	language TAT;\012	sub i by idotaccent;\012	language TRK;\012	sub i by idotaccent;\012} locl_latn_0;\012\012lookup locl_latn_1 {\012	script latn;\012	language ROM;\012	sub Scedilla by Scommaaccent;\012	sub scedilla by scommaaccent;\012	language MOL;\012	sub Scedilla by Scommaaccent;\012	sub scedilla by scommaaccent;\012} locl_latn_1;\012\012lookup locl_latn_2 {\012	script latn;\012	language CAT;\012	sub  l' periodcentered' l by ldot;\012	sub  L' periodcentered' L by Ldot;\012} locl_latn_2;\012";
 name = locl;
 },
 {
@@ -142,7 +142,8 @@ fontMaster = (
 alignmentZones = (
 "{667, 11}",
 "{467, 10}",
-"{0, -10}"
+"{0, -10}",
+"{-211, -8}"
 );
 ascender = 778;
 capHeight = 667;
@@ -150,23 +151,23 @@ custom = Italic;
 customParameters = (
 {
 name = typoAscender;
-value = 900;
+value = 778;
 },
 {
 name = typoDescender;
-value = -250;
+value = -222;
 },
 {
 name = typoLineGap;
-value = 0;
+value = 172;
 },
 {
 name = hheaAscender;
-value = 900;
+value = 950;
 },
 {
 name = hheaDescender;
-value = -250;
+value = -222;
 },
 {
 name = hheaLineGap;
@@ -174,15 +175,27 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1050;
+value = 950;
 },
 {
 name = winDescent;
-value = 250;
+value = 222;
 },
 {
-name = "Master Icon Glyph Name";
-value = a;
+name = strikeoutPosition;
+value = 280;
+},
+{
+name = strikeoutSize;
+value = 57;
+},
+{
+name = underlineThickness;
+value = 57;
+},
+{
+name = underlinePosition;
+value = -61;
 }
 );
 descender = -222;
@@ -227,7 +240,8 @@ xHeight = 467;
 alignmentZones = (
 "{667, 11}",
 "{484, 10}",
-"{0, -10}"
+"{0, -10}",
+"{-211, -8}"
 );
 ascender = 778;
 capHeight = 667;
@@ -235,23 +249,23 @@ custom = Italic;
 customParameters = (
 {
 name = typoAscender;
-value = 900;
+value = 778;
 },
 {
 name = typoDescender;
-value = -250;
+value = -222;
 },
 {
 name = typoLineGap;
-value = 0;
+value = 172;
 },
 {
 name = hheaAscender;
-value = 900;
+value = 950;
 },
 {
 name = hheaDescender;
-value = -250;
+value = -222;
 },
 {
 name = hheaLineGap;
@@ -259,15 +273,27 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1050;
+value = 950;
 },
 {
 name = winDescent;
-value = 250;
+value = 222;
 },
 {
-name = "Master Icon Glyph Name";
-value = a;
+name = strikeoutPosition;
+value = 290;
+},
+{
+name = strikeoutSize;
+value = 76;
+},
+{
+name = underlineThickness;
+value = 76;
+},
+{
+name = underlinePosition;
+value = -51;
 }
 );
 descender = -222;
@@ -70149,5 +70175,5 @@ tH = "54";
 };
 };
 versionMajor = 1;
-versionMinor = 1;
+versionMinor = 7;
 }
